@@ -20,20 +20,43 @@
     padding:  0 50px;
     height: 100%;
     color: white;
+    font-family: 'Sen', sans-serif;
+    
 }
 
 /* Flex is basically telling it how much space it take up (like how many grids in a table)*/
 .logo-container{
     flex: 2;
-    font-family: 'Sen', sans-serif;
     font-size: 30px;
     color: #e05a00;
 }
-
+/* ------------------------------------------------- */
 .menu{
     flex: 6;
 }
 
+.menu-list{
+    display: flex;
+    list-style: none;
+}
+
+.menu-list-item{
+    margin: 30px;
+    font-size: 18px;
+}
+/* -------------------------------------------------- */
 .sign-log{
     flex: 3;
+    display: flex;
+}
+
+.search-icon{
+    width: 30px;
+    height: 30px;
+}
+
+.profile{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
 }
