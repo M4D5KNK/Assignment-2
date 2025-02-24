@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* body{
+    /* place holder */
+/* } */
+
+.navbar{
+    width: 100%;
+    height: 75px;  
+    background-color: black; 
+}
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+    background-color: #171819;
+    padding:  0 50px;
+    height: 100%;
+    color: white;
+}
+
+/* Flex is basically telling it how much space it take up (like how many grids in a table)*/
+.logo-container{
+    flex: 2;
+    font-family: 'Sen', sans-serif;
+    font-size: 30px;
+    color: #e05a00;
+}
+
+.menu{
+    flex: 6;
+}
+
+.sign-log{
+    flex: 3;
+}
