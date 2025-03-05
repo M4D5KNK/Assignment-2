@@ -104,14 +104,15 @@
     display: flex;
     background-color: #171819;
     flex-direction: column;
-    align-items: center ;
+    align-items: center;
 }
 
-.intro-text{
+.intro-text {
     flex: 4;
     font-family: 'Inter', sans-serif;
 }
-.intro-text h1{
+
+.intro-text h1 {
     /* flex: 1; */
     /* font-family: 'Inter', sans-serif; */
     font-size: 3.3rem;
@@ -121,25 +122,33 @@
     margin-bottom: 3%;
 }
 
-.intro-text h3{
+.intro-text h3 {
     margin-left: 6%;
     margin-right: 10%;
     font-weight: 500;
 }
 
-.box{
+.box {
     flex: 6;
-    display: flex;
+    /* display: flex; */
     position: relative;
-    background-color: black;
+    /* background-color: black; */
     width: 75%;
-    height: 100%;
+    /* height: 5%; */
     top: 5%;
-    align-items: center;
-    flex-direction: column;
+    /* align-items: center; */
+    /* flex-direction: column; */
     border-radius: 15px;
-    /* margin-bottom: 50%; */
+    margin-bottom: 20%;
+    font-size: 20px;
+    color: white;
+    /* width: 190px; */
+    padding: 1.9rem 1.2rem;
+    text-align: center;
+    background: #2a2b38;
+
 }
+
 /* ------------------------------------------------- */
 .movie-image-container {
     flex: 1;
@@ -150,7 +159,7 @@
 .gradient {
     width: 50vh;
     height: calc(100vh - 75px);
-    background-image: linear-gradient(to left, rgb(0,0,0,0), #171819);
+    background-image: linear-gradient(to left, rgb(0, 0, 0, 0), #171819);
     position: absolute;
 }
 
@@ -159,14 +168,14 @@
     right: 250px;
 }
 
-.movie-title{
+.movie-title {
     position: absolute;
     bottom: 210px;
     left: 80px;
     width: 600px;
 }
 
-.movie-info{
+.movie-info {
     position: absolute;
     bottom: 100px;
     left: 130px;
@@ -191,20 +200,20 @@
     cursor: pointer;
     bottom: 170px;
     left: 700px;
-  }
-  
-  .movie-button:hover::before {
+}
+
+.movie-button:hover::before {
     /* The scaleX() CSS function defines a transformation that resizes an element along the x-axis (horizontally). Its result is a <transform-function> data type. */
     transform: scaleX(1);
-  }
-  
-  /* Lets the text 'watch now' be on the top of the button */
-  .movie-button-content {
+}
+
+/* Lets the text 'watch now' be on the top of the button */
+.movie-button-content {
     position: relative;
     z-index: 1;
-  }
-  
-  .movie-button::before {
+}
+
+.movie-button::before {
     content: "";
     position: absolute;
     top: 0;
@@ -216,12 +225,8 @@
     /* inherit represents the computed value of the property on the element’s parent. */
     height: inherit;
     border-radius: inherit;
-    background: linear-gradient(
-      82.3deg,
-      rgb(233, 109, 93) 10.8%,
-      rgb(238, 155, 88) 94.3%
-    );
+    background: linear-gradient(82.3deg,
+            rgb(233, 109, 93) 10.8%,
+            rgb(238, 155, 88) 94.3%);
     transition: all 0.475s;
-  }
-
-
+}
