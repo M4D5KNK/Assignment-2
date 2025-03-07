@@ -54,14 +54,18 @@
 }
 
 .search-icon {
+    position: relative;
     width: 30px;
     height: 30px;
+    left: 80px;
 }
 
 .profile {
+    position: relative;
     width: 30px;
     height: 30px;
     border-radius: 50%;
+    left: 80px;
 }
 
 .login-button {
